@@ -1,0 +1,157 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ /*  */
+
+}
+
+#navbar {
+ width: 100vw;
+ height: 80px;
+ background: black;
+ position: absolute;
+}
+
+#home,
+.info {
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+ transition: all 1s;
+}
+
+.info {
+ position: relative;
+ left: 50%;
+ top: 3px;
+ margin: 15px;
+}
+
+#home {
+ padding: 50px;
+ position: relative;
+ top: 25px;
+}
+/* .supportus{
+  position: relative;
+   max-width: 100vw;
+   height: 235vh;
+   transform: translateX(40%);
+   top: 100px;
+   border: 2px solid black;
+   background: gray;
+  } */
+  .how{
+   position: relative;
+   width: 100vw ;
+   height: 120px;
+   background: rgba(200, 218, 200, 0.38);
+   top: 80px;
+  }
+  .help{
+    text-align: center;
+    padding-top: 40px;
+  }
+.vent {
+  position: relative;
+  max-width: 55%;
+  height: 160vh;
+  transform: translateX(40%);
+  top: 100px;
+  border: 2px solid black;
+
+}
+.submit{
+padding: 40px;
+}
+.we{
+  position: relative;
+  padding-left: 40px;
+top: -20px;
+}
+.sel{
+min-width: 55%;
+min-height: 2%;
+}
+.area,.head,.head2,.sel,.sub, .head3{
+  margin-left: 180px;
+}
+.sub{
+width: 460px;
+  min-height: 2%;
+  background: rgb(62, 62, 192);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.head{
+  font-size: 18px;
+}
+.sub{
+    transition: all 1s;
+}
+.sub:hover{
+transform: translateY(5px);
+}
+
+/* last */
+.last {
+  position: relative;
+  background: rgb(16, 16, 42);
+  width: 100vw;
+  height: 30vh;
+  padding-top: 45px;
+  text-align: center;
+  transition: all 0.5s;
+  top: 110px;
+}
+
+.la {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.la:hover {
+  transform: translateY(5px);
+}
+
+.icon {
+  display: block;
+  border: 20px;
+  margin: 40px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+}
+
+.you {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.copy {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5s;
+  padding-top: 40px;
+}
+
+.you,
+.face,
+.twiter {
+  transition: all 0.31ms;
+}
+
+.twiter:hover {
+  background-color: gray;
+}

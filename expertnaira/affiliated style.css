@@ -1,0 +1,276 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+
+}
+
+#navbar {
+ width: 100vw;
+ height: 80px;
+ background: black;
+ position: absolute;
+}
+
+#home,
+.info {
+ position: relative;
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+ transition: all 1s;
+ left: 170px;
+}
+
+.info {
+ position: relative;
+ left: 50%;
+ top: 3px;
+ margin: 15px;
+}
+
+#home {
+ padding: 50px;
+ position: relative;
+ top: 25px;
+}
+
+#banner {
+ position: absolute;
+ top: 75px;
+ width: 100vw;
+ height: 420px;
+ background-image: linear-gradient(rgba(203, 205, 203, 0.924), rgba(203, 203, 203, 0.924)), url(./images/banner.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+h1 {
+ padding-left: 220px;
+ padding-top: 80px;
+ color: rgb(0, 0, 0);
+ font-size: 30px;
+}
+
+.let {
+ color: rgb(0, 0, 0);
+ padding-left: 220px;
+ padding-top: 8px;
+ font-size: 20px;
+}
+
+/* #get-started{
+ display: inline;
+background: orange; 
+ color: white;
+ transform: translateX(73%);
+ position: absolute;
+ top: 65%;
+background-size: 25%;
+text-decoration: none ;
+border-top: 25px;
+
+}
+a{
+ width: 300px;
+ height: 50px;
+ text-align: center;
+ font-size: 20px;
+ justify-content: center;
+ align-items: center;
+
+ 
+} */
+
+.get {
+ display: inline-block;
+ background: orange;
+ text-decoration: none;
+ width: 250px;
+ height: 50px;
+ text-align: center;
+ display: flex;
+ align-items: center;
+ align-content: center;
+ transform: translateX(87%);
+ position: absolute;
+ top: 65%;
+ border: 7px solid green;
+ border-radius: 15px;
+
+}
+
+#get-started {
+ display: flex;
+ text-align: center;
+ align-content: center;
+ align-items: center;
+ padding-left: 75px;
+ font-size: 20px;
+ color: white;
+}
+.side{
+ position: relative;
+ width: 30%;
+ height: 420px;
+ background-image: url(./images/image\ 1.png);
+  background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   transform: translateX(180%);
+top: -225px;
+}
+
+/* how it works */
+.how-it-works{
+  width: 100vw;
+  height: 20vh;
+background-color: rgb(255, 255, 255);
+text-align: center;
+}
+.sign,.promo,.getp{
+ display: inline-block;
+align-items: center;
+text-align: center;
+}
+.signuppa,.promotepa,.getpaidpa {
+margin: 0px 40px;
+}
+.promote,.get-paid,.signup{
+ position: relative;
+ padding-left: 12px;
+ top: -20px;
+}
+.promote{
+ left: -10px;
+}
+.get-paid{
+ left: -20px;
+}
+.getpaidpa{
+margin-left: 20px;
+}
+.sign{
+ position: relative;
+ top:-18px;
+}
+.howit{
+ position: relative;
+padding-left: 25px;
+top: -20px;
+}
+.simple{
+ position: relative;
+ font-size: 30px;
+ top: -10px;
+}
+.how-it-works{
+ position: relative;
+ top: -230px;
+}
+/* what makes special */
+.makespecial{
+
+  width: 100vw;
+   height: 52vh;
+   background: rgba(203, 205, 203, 0.693);
+}
+.special{
+ text-align: center;
+ position: relative;
+ top: -30px;
+padding-left: 30px;
+}
+.special-item{
+ position: relative;
+padding-left: 230px;
+font-size: 20px;
+}
+/* Frequently Asked Questions */
+.freq{
+ width: 100vw;
+ height: 30vh;
+ align-content: center;
+ background: rgb(255, 255, 255);
+}
+.faqq{
+ /* text-align: center; */
+ position: relative;
+ top: -30px;
+ padding-left: 570px;
+ color: black;
+}
+.click{
+ display: flex;
+ background: rgb(44, 44, 141);
+width: 350px;
+height: 45px;
+ text-align: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  transform: translateX(165%);
+  position: absolute;
+  /* top: 65%; */
+  border: 7px solid green;
+  border-radius: 15px;
+}
+.here{
+ color: white;
+ text-decoration: none;
+ text-align: center;
+ padding-left: 80px;
+}
+
+/* last */
+.last {
+ position: relative;
+ background: rgb(16, 16, 42);
+ width: 100vw;
+ height: 30vh;
+ padding-top: 45px;
+ text-align: center;
+ transition: all 0.5s;
+ top: -30px;
+}
+
+.la {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ transition: all 0.5s;
+}
+
+.la:hover {
+ transform: translateY(5px);
+}
+
+.icon {
+ display: block;
+ border: 20px;
+ margin: 40px;
+}
+
+img {
+ height: 30px;
+ width: 30px;
+}
+
+.you {
+ margin-left: 12px;
+ margin-right: 12px;
+}
+
+.copy {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ transition: all 0.5s;
+ padding-top: 40px;
+}
+/* .la,.icon,.you,.copy{
+ display: inline-block;
+ position: absolute;
+} */

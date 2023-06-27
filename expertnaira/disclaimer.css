@@ -1,0 +1,102 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ /*  */
+
+}
+
+#navbar {
+ width: 100vw;
+ height: 80px;
+ background: black;
+ position: absolute;
+}
+
+#home,
+.info {
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+ transition: all 1s;
+}
+
+.info {
+ position: relative;
+ left: 50%;
+ top: 3px;
+ margin: 15px;
+}
+
+#home {
+ padding: 50px;
+ position: relative;
+ top: 25px;
+}
+.d{
+ text-align: center;
+}
+.b{
+ max-width: 50%;
+ margin-left: 25%;
+ padding-top: 100px;
+}
+
+
+/* last */
+.last {
+ position: relative;
+ background: rgb(16, 16, 42);
+ width: 100vw;
+ height: 30vh;
+ padding-top: 45px;
+ text-align: center;
+ transition: all 0.5s;
+ top: 160px;
+}
+
+.la {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ transition: all 0.5s;
+}
+
+.la:hover {
+ transform: translateY(5px);
+}
+
+.icon {
+ display: block;
+ border: 20px;
+ margin: 40px;
+}
+
+img {
+ height: 30px;
+ width: 30px;
+}
+
+.you {
+ margin-left: 12px;
+ margin-right: 12px;
+}
+
+.copy {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ transition: all 0.5s;
+ padding-top: 40px;
+}
+
+.you,
+.face,
+.twiter {
+ transition: all 0.31ms;
+}
+
+.twiter:hover {
+ background-color: gray;
+}

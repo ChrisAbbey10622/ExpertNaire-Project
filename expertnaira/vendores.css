@@ -1,0 +1,129 @@
+* {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+font-family:  sans-serif;
+font-weight: normal;
+}
+
+#navbar {
+ width: 100vw;
+ height: 80px;
+ background: black;
+ position: absolute;
+}
+
+#home,
+.info {
+ position: relative;
+ color: white;
+ font-size: 20px;
+ text-decoration: none;
+ text-transform: uppercase;
+ transition: all 1s;
+ left: 170px;
+}
+
+.info {
+ position: relative;
+ left: 50%;
+ top: 3px;
+ margin: 15px;
+}
+
+#home {
+ padding: 50px;
+ position: relative;
+ top: 25px;
+}
+/* how to list */
+.vent{
+ position: relative;
+ background: white;
+max-width: 55%;
+ height: 255vh;
+transform: translateX(40%);
+top: 100px;
+border: 2px solid black;
+
+}
+.how2,.fornew,.clickh {
+ text-align: center;
+ margin: 20px;
+ font-weight: bolder;
+}
+.inorder,.theex,.once{
+ margin: 0px 50px;
+}
+.clickh{
+padding-left: 240px;
+ display: flex;
+}
+.please{
+ max-width: 100%;
+ height: 230px;
+ background: rgb(200, 218, 200);
+ margin-top: 20px;
+}
+.plea{
+ text-align: center;
+ padding-top: 20px;
+  margin: 0px 50px;
+}
+.exper{
+   margin: 10px 50px;
+   font-size: 14px;
+}
+.forh{
+ text-align: center;
+ padding: 25px 0px;
+}
+.forp{
+  margin: 0px 50px;
+}
+/* last */
+.last {
+ position: absolute;
+ background: rgb(16, 16, 42);
+ width: 100vw;
+ height: 30vh;
+ padding-top: 45px;
+ text-align: center;
+ transition: all 0.5s;
+ top: 280%;
+}
+
+.la {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ transition: all 0.5s;
+}
+
+.la:hover {
+ transform: translateY(5px);
+}
+
+.icon {
+ display: block;
+ border: 20px;
+ margin: 40px;
+}
+
+img {
+ height: 30px;
+ width: 30px;
+}
+
+.you {
+ margin-left: 12px;
+ margin-right: 12px;
+}
+
+.copy {
+ color: white;
+ text-align: center;
+ font-size: 15px;
+ transition: all 0.5s;
+ padding-top: 40px;
+}

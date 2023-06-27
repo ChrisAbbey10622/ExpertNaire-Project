@@ -1,0 +1,112 @@
+.ex{
+ margin-left: 240px;
+ font-size: 45px;
+}
+.sign{
+  margin-left: 320px;
+  font-size: 25px;
+}
+.ex{
+ margin-top: 150px;
+}
+.sign {
+ margin-top: 50px;
+}
+.form{
+  margin-left: 280px;
+ min-width: 80%;
+}
+.ps{
+  margin-left: 230px;
+}
+.forget{
+ margin-left: 380px;
+ margin-top: -20px;
+ 
+}
+.s{
+ margin-left: 320px;
+ font-size: 25px;
+ background: rgb(128, 6, 198);
+display:inline-block;
+width: 8rem;
+text-decoration: none;
+text-align: center;
+padding: 1.2rem 1.5rem;
+/* border: solid ; */
+border-radius: 3rem;
+position: relative;
+margin-left: 17rem;
+transition: scale 2s, text-shadow 2s, background 2s;
+}
+#sign{
+  text-decoration: none;
+  color: white;
+}
+.s:hover{
+/* box-shadow: black 3rem; */
+scale: 90%;
+text-shadow: black 7rem;
+background: rgb(6, 5, 76);
+}
+.d{
+  display: flex;
+  margin: 6rem;
+  margin-left: 15rem;
+}
+.si{
+  padding-left: 2rem;
+}
+.right{
+  background: url(./images/log\ in.jpg);
+  display: inline;
+  position: absolute;
+ margin-left: 45%;
+ min-width: 46rem;
+min-height: 41rem;
+margin-top: -52%;
+padding: 3rem;
+color: white;
+  text-align: center;
+  padding-top: 5rem;
+}
+.text{
+  color: white;
+  text-align: center;
+  padding-top: 8rem;
+}
+.you{
+  font-size: 55px;
+  
+}
+.if{
+  padding: 8px;
+}
+ul{
+  list-style-type: circle;
+}
+.con{
+  background: rgb(255, 255, 255);
+  display: inline-block;
+  position: absolute;
+  min-width: 12rem;
+  min-height: 2rem;
+  margin-left: 66%;
+ margin-top: -20%;
+ border-radius: 15px;
+ text-align: center;
+ padding-top: 10px;
+ transition: min-width 1s, text-shadow 2s;
+}
+.here{
+text-decoration: none;
+font-size: 20px;
+color: blueviolet;
+}
+.con:hover{
+    min-width: 10rem;
+    text-shadow: black 8px;
+}
+.home{
+  text-decoration: none;
+}
